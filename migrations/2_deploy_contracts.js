@@ -3,5 +3,5 @@ const AuctionSale = artifacts.require('./AuctionSale.sol')
 
 module.exports = function(deployer) {
   // deployer.deploy(Users);
-  deployer.deploy(AuctionSale, web3.toWei(3, 'ether'), web3.toWei(50, 'ether'))
+  deployer.deploy(AuctionSale, web3.toWei(3, 'ether'), web3.toWei(50, 'ether'), web3.toWei(0.5, 'ether'))
 };
